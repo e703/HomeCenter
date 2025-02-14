@@ -1,11 +1,17 @@
 import React from 'react';
 
-function Header() {
+function SystemList({ systems }) {
   return (
-    <header className="header">
-      <h1>家庭局域网管理系统</h1>
-    </header>
+    <div className="system-list">
+      {systems.map((system) => (
+        <div key={system.id} className="system-item">
+          <a href={system.url} target="_blank" rel="noopener noreferrer">
+            {system.name}
+          </a>
+        </div>
+      ))}
+    </div>
   );
 }
 
-export default Header;
+export default SystemList;
