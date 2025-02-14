@@ -5,9 +5,9 @@
 # 功能：自动部署家庭局域网管理系统
 
 # 配置变量
-PROJECT_NAME="my-app"              # 项目名称
+PROJECT_NAME="HomeCenter"              # 项目名称
 PROJECT_DIR="/home/$USER/$PROJECT_NAME"  # 项目目录
-GIT_REPO="your_git_repo_url"       # 你的Git仓库地址（如果有）
+GIT_REPO="https://github.com/e703/HomeCenter.git"       # 你的Git仓库地址（如果有）
 NODE_PORT=3000                     # Node.js应用监听的端口
 DOMAIN="your_domain_or_ip"         # 你的域名或IP地址
 
